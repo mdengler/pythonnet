@@ -58,4 +58,16 @@ if os.name == "posix":
 setup(name="clr",
     ext_modules = extensions,
     scripts = ["src/monoclr/clrpython%s" % VERSION],
+    classifiers = [
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Natural Language :: English',
+        'License :: OSI Approved :: Zope Public License',
+        'Operating System :: Microsoft :: Windows :: Windows 7',
+        'Operating System :: POSIX :: Linux',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    ],
     )

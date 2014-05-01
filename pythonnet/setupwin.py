@@ -61,5 +61,17 @@ setup(name="pythonnet",
         ],
         cmdclass = {
             "build_ext" : PythonNET_BuildExt
-        }
+        },
+      classifiers = [
+          'Development Status :: 4 - Beta',
+          'Intended Audience :: Developers',
+          'Natural Language :: English',
+          'License :: OSI Approved :: Zope Public License',
+          'Operating System :: Microsoft :: Windows :: Windows 7',
+          'Operating System :: POSIX :: Linux',
+          'Programming Language :: Python',
+          'Programming Language :: Python :: 2',
+          'Programming Language :: Python :: 2.7',
+          'Topic :: Software Development :: Libraries :: Python Modules',
+      ],
 )
