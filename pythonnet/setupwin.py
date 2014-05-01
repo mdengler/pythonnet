@@ -62,6 +62,8 @@ setup(name="pythonnet",
         cmdclass = {
             "build_ext" : PythonNET_BuildExt
         },
+      version="2.0.0",
+
       classifiers = [
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',

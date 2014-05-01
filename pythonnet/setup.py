@@ -58,6 +58,8 @@ if os.name == "posix":
 setup(name="clr",
     ext_modules = extensions,
     scripts = ["src/monoclr/clrpython%s" % VERSION],
+    version="2.0.0",
+
     classifiers = [
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
